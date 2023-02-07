@@ -14,8 +14,14 @@ function App() {
     <>
       <Header searchInput={searchInput} setSearchInput={setSearchInput} />
       <Routes>
-        <Route path="/" element={<Home searchInput={searchInput} />}></Route>
-        <Route path="/pokemon/:pokemonId" element={<PokemonDetails />}></Route>
+        <Route
+          path="pokemon_task/"
+          element={<Home searchInput={searchInput} />}
+        ></Route>
+        <Route
+          path="pokemon_task/pokemon/:pokemonId"
+          element={<PokemonDetails />}
+        ></Route>
       </Routes>
     </>
   );
