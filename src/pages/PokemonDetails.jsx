@@ -31,7 +31,7 @@ const PokemonDetails = () => {
           paddingTop: "7px",
           paddingBottom: "7px",
         }}
-        onClick={() => navigate("/")}
+        onClick={() => navigate("pokemon_task/")}
       >
         <ArrowBackIosIcon style={{ fontSize: "12px", marginRight: "10px" }} />{" "}
         Back
