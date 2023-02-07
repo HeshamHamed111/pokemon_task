@@ -16,7 +16,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home searchInput={searchInput} />}></Route>
         <Route path="/pokemon/:pokemonId" element={<PokemonDetails />}></Route>
-        <Route path="/*" element={<NotFound />}></Route>
       </Routes>
     </>
   );
